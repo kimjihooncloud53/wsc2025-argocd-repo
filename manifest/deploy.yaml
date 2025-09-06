@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: 323974325951.dkr.ecr.ap-southeast-1.amazonaws.com/app-repo:v1.0.0
+          image: 323974325951.dkr.ecr.ap-southeast-1.amazonaws.com/app-repo:v1.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 80
